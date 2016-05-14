@@ -49,6 +49,10 @@ while true
     print "I'm sorry #{end_year} occured before #{start_year}. Please try again: "
   elsif end_year <= 0
       print "Please enter a date no earlier than #{start_year}: "
+  elsif start_year == end_year
+      print "That's the same as your start date.  You should at least enter: "
+      puts start_year + 1
+      print "Please try again:"
   else
       puts "Thank you."
       puts

@@ -57,7 +57,7 @@ end
 words = []
 x = 1
 
-loop do
+while true
   $resub = nil
     if x == 1
       print "Ready? Sock it to me, sucka! "
